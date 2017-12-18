@@ -2,6 +2,8 @@
 Copyright 2017 Erik Thorelli
 */
 
+//TODO - make a user-friendly web version accessible at unhype.me
+
 var totalBill = prompt("What is the total amount of the bill?");
 var payer1 = prompt("What is the first payer's name?"); // TODO: store this for continual use w/o having to re-enter  - #user-friendly
 var income1 = prompt("What is " + payer1 + "'s annual income? "); // TODO: store this for continual use - #user-friendly
@@ -17,8 +19,8 @@ var payer1Bill = income1Num / totalIncome * totalBill;
 var payer2Bill = income2Num / totalIncome * totalBill;
 
 
-console.log(payer1 + " should pay $" + payer1Bill.toFixed(2));
-console.log(payer2 + " should pay $" + payer2Bill.toFixed(2));
+alert(payer1 + " should pay $" + payer1Bill.toFixed(2) +  "\n" + payer2 + " should pay $" + payer2Bill.toFixed(2));
+//alert(payer2 + " should pay $" + payer2Bill.toFixed(2));
 
  
 //TESTS
