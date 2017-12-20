@@ -5,7 +5,11 @@ A calculator to figure how to split bills among individuals, based on their rela
 
 (Here is a Medium post I wrote about this tool - https://medium.com/unhype/a-marxian-split-460365e079ed)
 
-### How to Run the Calculator
+### How to Try the Calculator
+1. go to http://marx.unhype.me
+
+### How to Run the Calculator from the files
+
 1. Run '/calc.js' code in your developer console
 2. Follow the prompts
 3. Read the console to see the amounts to be paid
