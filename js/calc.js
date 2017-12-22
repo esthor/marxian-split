@@ -4,6 +4,8 @@ Copyright 2017 Erik Thorelli
 
 //TODO - make a user-friendly web version accessible at unhype.me
 
+"use strict";
+
 var totalBill = prompt("What is the total amount of the bill?");
 var payer1 = prompt("What is the first payer's name?"); // TODO: store this for continual use w/o having to re-enter  - #user-friendly
 var income1 = prompt("What is " + payer1 + "'s annual income? "); // TODO: store this for continual use - #user-friendly
