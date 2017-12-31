@@ -32,23 +32,3 @@ if (testTotalBill = true) {
 } else {
     console.log("totalBill != payer1Bill + payer2Bill! Uh oh!")
 };
-
-
-
-//SKETCHING NOTES
-/*psuedo code
-
-var totalBill = [user input number]
-var payer1 = [user input string]
-var income1 = [user input number]
-var payer2 = [user input string]
-var income2 = [user input number]
-(TODO: Make the declaration of incomes recursive, so unlimited amount of possible payers)
-
-var totalIncome = income1 + income2
-
-var payer1Bill = income1 / totalIncome * totalBill
-var payer2Bill = income2 / totalIncome * totalBill
-
-print "[payer1] need to pitch in [payer1Bill] and [payer2] needs to put up [payer2Bill]"
-*/
