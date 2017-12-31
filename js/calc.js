@@ -3,6 +3,9 @@ Copyright 2017 Erik Thorelli
 */
 
 //TODO - make a user-friendly web version accessible at unhype.me
+//TODO - refactor to scope well; no global variable exposure
+//TODO - recursive handling of payer creation (ability to 'add' a payer)
+//TODO - graphical UI instead of pure JS
 
 "use strict";
 
