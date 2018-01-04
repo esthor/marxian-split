@@ -4,7 +4,7 @@ Copyright 2017 Erik Thorelli
 
 //TODO - make a user-friendly web version accessible at unhype.me
 //TODO - refactor to scope well; no global variable exposure
-//TODO - recursive handling of payer creation (ability to 'add' a payer)
+//TODO - user handling of payer creation (ability to 'add' a payer)
 //TODO - graphical UI instead of pure JS
 
 "use strict";
@@ -35,23 +35,3 @@ if (testTotalBill = true) {
 } else {
     console.log("totalBill != payer1Bill + payer2Bill! Uh oh!")
 };
-
-
-
-//SKETCHING NOTES
-/*psuedo code
-
-var totalBill = [user input number]
-var payer1 = [user input string]
-var income1 = [user input number]
-var payer2 = [user input string]
-var income2 = [user input number]
-(TODO: Make the declaration of incomes recursive, so unlimited amount of possible payers)
-
-var totalIncome = income1 + income2
-
-var payer1Bill = income1 / totalIncome * totalBill
-var payer2Bill = income2 / totalIncome * totalBill
-
-print "[payer1] need to pitch in [payer1Bill] and [payer2] needs to put up [payer2Bill]"
-*/
